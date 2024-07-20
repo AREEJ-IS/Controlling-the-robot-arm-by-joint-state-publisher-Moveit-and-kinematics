@@ -56,11 +56,16 @@ at the end or the window we have the source line for our global ROS installation
 now save and quit the file. you should have those two lines so you can see your global ros installation as kind of a first level, and then your custom workspace here have the second level. you need to source both the global ROS installation and your catkin workspace, so you can use your code with ROS functionalities.
 
 
-
-
-
-
 ## Installing the package arduino_robot_arm
+1- Add the “arduino_robot_arm” package to “src” folder cd src then copy this command :
+````
+sudo apt install git
+````
+2- ````git clone https://github.com/smart-methods/arduino_robot_arm````
+
+
+<img width="611" alt="t" src="https://github.com/user-attachments/assets/e928f84e-dc1d-403a-bd61-c08807f59dbe">
+
 
 ## Controlling the motors
 
