@@ -46,13 +46,13 @@ once you have run this command you can use your custom ROS code
 
 last thing here is to run  ```gedit ~/.bashrc``` then this window will appears
 
-<img width="985" alt="4" src="https://github.com/user-attachments/assets/84d5c9ea-a2b4-47d8-8a81-4eb146ea8e2b">
+<img width="981" alt="4" src="https://github.com/user-attachments/assets/84d5c9ea-a2b4-47d8-8a81-4eb146ea8e2b">
 
 
 
 at the end or the window we have the source line for our global ROS installation . so we will add this line ```source ~/catkin_ws/devel/setup.bash``` (after) the global ROS installation
 
-<img width="983" alt="5" src="https://github.com/user-attachments/assets/72e43ada-c7c0-47dc-a2de-bc675bad172d">
+<img width="981" alt="5" src="https://github.com/user-attachments/assets/72e43ada-c7c0-47dc-a2de-bc675bad172d">
 
 now save and quit the file. you should have those two lines so you can see your global ros installation as kind of a first level, and then your custom workspace here have the second level. you need to source both the global ROS installation and your catkin workspace, so you can use your code with ROS functionalities.
 
@@ -62,9 +62,11 @@ now save and quit the file. you should have those two lines so you can see your 
 ````
 sudo apt install git
 ````
+
 <img width="970" alt="6" src="https://github.com/user-attachments/assets/9e54e3f1-5ae5-4f24-a51e-3d02642268a9">
 
-2- ```git clone https://github.com/smart-methods/arduino_robot_arm````
+2- ````git clone https://github.com/smart-methods/arduino_robot_arm````
+
 
 <img width="911" alt="7" src="https://github.com/user-attachments/assets/8957dd6a-dbb3-41b5-b78c-b172700d4cbe">
 
@@ -72,22 +74,36 @@ sudo apt install git
 ````
 rosdep install --from-paths src --ignore-src -r -y
 ````
+
 <img width="953" alt="8" src="https://github.com/user-attachments/assets/d3ae7b91-7275-4cba-83b8-204b86d4c1dd">
 
 
-4- run the command```` sudo apt-get install ros-noetic-moveit````
+4- run the command
+```` 
+sudo apt-get install ros-noetic-moveit
+````
+
 <img width="960" alt="9" src="https://github.com/user-attachments/assets/3b76d3b4-1aa4-4fdc-a72a-4fe2d0eacbe8">
 
 5- run the command
 ````
 sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
 ````
+
 <img width="900" alt="10" src="https://github.com/user-attachments/assets/1db0ccbb-68d8-4739-83ab-95b1a6388d56">
 
-6-````sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher````
+6- run the command
+````
+sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
+````
+
 <img width="927" alt="11" src="https://github.com/user-attachments/assets/613694d5-1c89-4fbb-a6d6-40dd23503683">
 
-7-````sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control````
+7-run the command
+````
+sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
+````
+
 <img width="927" alt="12" src="https://github.com/user-attachments/assets/ad20ec19-52e6-410a-901c-c333b26d8a55">
 
 8- compile the package
@@ -103,6 +119,10 @@ roslaunch robot_arm_pkg check_motors.launch
 <img width="925" alt="88 copy" src="https://github.com/user-attachments/assets/dcc943bd-ea5f-4afd-a95a-7c4a0f0e4e41">
 
 You can move it as you wish too!
+
+
+
+
 <img width="927" alt="cc copy" src="https://github.com/user-attachments/assets/e8584bfe-230f-4d34-9c3b-550ae6105ca0">
 
 ## showing the graph
