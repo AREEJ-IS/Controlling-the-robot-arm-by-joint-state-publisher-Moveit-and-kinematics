@@ -1,4 +1,4 @@
-<img width="960" alt="2" src="https://github.com/user-attachments/assets/804d33f5-4eea-475f-b1fc-54917efec9b1"># Controlling-the-robot-arm-by-joint-state-publisher-Moveit-and-kinematics
+# Controlling-the-robot-arm-by-joint-state-publisher-Moveit-and-kinematics
 
 ## step1: Create a ROS Workspace (Catkin)
 ````
